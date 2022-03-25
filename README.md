@@ -1,5 +1,5 @@
 # numbers
-convert numbers to english (go pilot tests)
+human readable numbers
 
 [![Go](https://github.com/dearing/numbers/actions/workflows/go.yml/badge.svg)](https://github.com/dearing/numbers/actions/workflows/go.yml)
 [![CodeQL](https://github.com/dearing/numbers/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/dearing/numbers/actions/workflows/codeql-analysis.yml)
