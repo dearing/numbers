@@ -83,7 +83,7 @@ func NumberToEnglish(number int) (value string) {
 		value = englishToTwenty(number)
 	} else if number < 100 {
 		if number%10 == 0 {
-			value = tens(number / 10)
+			value = tens(number / 10) // short out zero
 		} else {
 			value = tens(number/10) + "-" + englishToTwenty(number%10)
 		}
